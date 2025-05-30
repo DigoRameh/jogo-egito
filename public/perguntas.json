@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "simbolo": "𓃢",
+    "enunciado": "Qual foi a situação mais embaraçosa que já aconteceu com você durante um encontro?",
+    "shots": 1
+  },
+  {
+    "id": 2,
+    "simbolo": "𓂀",
+    "enunciado": "Já ficou com alguém e se arrependeu imediatamente? Quem foi?",
+    "shots": 2
+  },
+  {
+    "id": 3,
+    "simbolo": 3,
+    "enunciado": "Qual é a coisa mais ousada que você já fez para chamar a atenção de alguém que estava interessado(a)?",
+    "shots": 3
+  },
+  {
+    "id": 4,
+    "simbolo": "𓃢",
+    "enunciado": "Qual é o seu fetiche mais secreto?",
+    "shots": 2
+  }
+]
