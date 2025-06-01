@@ -39,44 +39,41 @@ export default function App() {
         <div className="topo-fixo">
           <h1>Egito</h1>
           <h3>Um jogo de Joiner</h3>
-        </div>
-      )}
-
-      <div className="centralizado" style={{ paddingTop: "6rem", paddingBottom: "5rem" }}>
-        {!gameStarted ? (
-          <div>
-            <h2 style={{ textAlign: "center", marginBottom: "1rem" }}>
-              Adicionar Jogadores
-            </h2>
-            <div className="flex-horizontal">
-              <input
-                type="text"
-                placeholder="Nome"
-                value={name}
-                onChange={(e) => {
-                  setName(e.target.value);
-                  setError("");
-                }}
-                className="input-personalizado"
-              />
-              <button onClick={addPlayer} className="botao-personalizado">
-                Adicionar
-              </button>
-            </div>
-            {error && (
+          <h2 style={{ textAlign: "center", marginBottom: "1rem" }}>
+            Adicionar Jogadores
+          </h2>
+          <div  className="centralizado">
+            <input
+              type="text"
+              placeholder="Nome"
+              value={name}
+              onChange={(e) => {
+                setName(e.target.value);
+                setError("");
+              }}
+              className="input-personalizado"
+            />
+            <button onClick={addPlayer} className="botao-personalizado">
+              Adicionar
+            </button>
+            <div>
+              {error && (
               <p style={{ color: "red", textAlign: "center", marginTop: "0.5rem" }}>
                 {error}
               </p>
-            )}
-            <ul className={`lista-jogadores ${colunaClasse}`}>
-              {players.map((p, i) => (
-                <li key={i}>{p.name}</li>
-              ))}
-            </ul>
+              )}
+              <div className="lista-container">
+                <ul className={`lista-jogadores ${colunaClasse}`}>
+                  {players.map((p, i) => (<li key={i}>{p.name}</li>))}
+                </ul>
+              </div>
+            </div>
           </div>
-        ) : (
-          <TelaJogo jogadoresIniciais={players} />
-        )}
+        </div> /* Topo-fixo */
+      )}
+
+      <div className="centralizado">
+        {gameStarted && <TelaJogo jogadoresIniciais={players} />}
 
         {!gameStarted && (
           <div
@@ -86,7 +83,7 @@ export default function App() {
               left: "50%",
               transform: "translateX(-50%)",
               width: "100%",
-              maxWidth: "300px",
+              maxWidth: "18rem",
               textAlign: "center"
             }}
           >
