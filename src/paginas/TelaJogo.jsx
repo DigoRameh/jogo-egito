@@ -22,12 +22,23 @@ export default function TelaJogo({ jogadoresIniciais }) {
   const [jogadorEscolhido, setJogadorEscolhido] = useState(null);
   const [mostraInterceptar, setMostraInterceptar] = useState(false);
   const [jogadorInterceptador, setJogadorInterceptador] = useState(null);
+  const [vencedor, setVencedor] = useState(null);
 
   useEffect(() => {
     fetch("/perguntas.json")
       .then((res) => res.json())
       .then((data) => setCartas(data.sort(() => Math.random() - 0.5)));
   }, []);
+
+  const verificarVitoria = (jogador) => {
+    const contagem = {};
+    jogador.cards.forEach((carta) => {
+      contagem[carta.simbolo] = (contagem[carta.simbolo] || 0) + 1;
+      if (contagem[carta.simbolo] >= 2) { // MUDAR PARA 5 QUANDO ADICIONAR TODAS AS CARTAS
+        setVencedor(jogador.name);
+      }
+    });
+  };
 
   const proximaRodada = () => {
     setCartaAtual(null);
@@ -64,6 +75,8 @@ export default function TelaJogo({ jogadoresIniciais }) {
         : j
     );
     salvarJogadores(atualizados);
+    const jogadorAtualizado = atualizados.find(j => j.name === alvo.name);
+    verificarVitoria(jogadorAtualizado);
   };
 
   const responder = () => {
@@ -84,69 +97,30 @@ export default function TelaJogo({ jogadoresIniciais }) {
   return (
     <div className="centralizado" style={{ paddingTop: "1rem", width: "100%" }}>
       <div className="tela-jogo-container">
-        <h1 style={{ fontSize: "1.4rem", marginBottom: "1rem" }}>
-          Vez de: {jogadores[jogadorAtual]?.name || "N/A"}
-        </h1>
+        {!vencedor &&(<>
+            <h1 style={{ fontSize: "1.4rem", marginBottom: "1rem" }}>
+              Vez de: {jogadores[jogadorAtual]?.name || "N/A"}
+            </h1>
 
-        {fase === 1 && (
-          <button onClick={tirarCarta} className="botao-personalizado">
-            Tirar Carta
-          </button>
-        )}
+            {fase === 1 && (
+              <button onClick={tirarCarta} className="botao-personalizado">
+                Tirar Carta
+              </button>
+            )}
 
-        {fase === 2 && cartaAtual && (
-          <>
-            <h2>Símbolo: {cartaAtual.simbolo}</h2>
-            <p>{cartaAtual.enunciado}</p>
-            <p><strong>Shots: {cartaAtual.shots}</strong></p>
-            <h3>Escolha quem vai responder:</h3>
-            <div className="flex-horizontal">
-              {jogadores
-                .filter(j => j.name !== jogadores[jogadorAtual].name)
-                .map((j, i) => (
-                  <button
-                    key={i}
-                    onClick={() => escolherJogador(j)}
-                    className="botao-personalizado"
-                  >
-                    {j.name}
-                  </button>
-                ))}
-            </div>
-          </>
-        )}
-
-        {fase === 3 && (
-          <>
-            <h2><strong>{jogadorEscolhido.name}</strong> vai responder.</h2>
-            <button onClick={revelarCarta} className="botao-personalizado">Revelar Carta</button>
-          </>
-        )}
-
-        {fase === 4 && cartaAtual && (
-          <>
-            <h2><strong>{jogadorEscolhido.name}</strong> responde.</h2>
-            <h2>Símbolo: {cartaAtual.simbolo}</h2>
-            <p>{cartaAtual.enunciado}</p>
-            <p><strong>Shots: {cartaAtual.shots}</strong></p>
-            {!mostraInterceptar ? (
+            {fase === 2 && cartaAtual && (
               <>
-                <button onClick={responder} className="botao-personalizado">Responder</button>
-                <button onClick={desistir} className="botao-personalizado">Desistir</button>
-                <button onClick={interceptar} className="botao-personalizado">Interceptar</button>
-              </>
-            ) : (
-              <>
-                <h3>Quem interceptou?</h3>
+                <h2>Símbolo: {cartaAtual.simbolo}</h2>
+                <p>{cartaAtual.enunciado}</p>
+                <p><strong>Shots: {cartaAtual.shots}</strong></p>
+                <h3>Escolha quem vai responder:</h3>
                 <div className="flex-horizontal">
                   {jogadores
-                    .filter(j =>
-                      j.name !== jogadores[jogadorAtual].name &&
-                      j.name !== jogadorEscolhido.name)
+                    .filter(j => j.name !== jogadores[jogadorAtual].name)
                     .map((j, i) => (
                       <button
                         key={i}
-                        onClick={() => escolherInterceptador(j)}
+                        onClick={() => escolherJogador(j)}
                         className="botao-personalizado"
                       >
                         {j.name}
@@ -155,17 +129,71 @@ export default function TelaJogo({ jogadoresIniciais }) {
                 </div>
               </>
             )}
+
+            {fase === 3 && (
+              <>
+                <h2><strong>{jogadorEscolhido.name}</strong> vai responder.</h2>
+                <button onClick={revelarCarta} className="botao-personalizado">Revelar Carta</button>
+              </>
+            )}
+
+            {fase === 4 && cartaAtual && (
+              <>
+                <h2><strong>{jogadorEscolhido.name}</strong> responde.</h2>
+                <h2>Símbolo: {cartaAtual.simbolo}</h2>
+                <p>{cartaAtual.enunciado}</p>
+                <p><strong>Shots: {cartaAtual.shots}</strong></p>
+                {!mostraInterceptar ? (
+                  <>
+                    <button onClick={responder} className="botao-personalizado">Responder</button>
+                    <button onClick={desistir} className="botao-personalizado">Desistir</button>
+                    <button onClick={interceptar} className="botao-personalizado">Interceptar</button>
+                  </>
+                ) : (
+                  <>
+                    <h3>Quem interceptou?</h3>
+                    <div className="flex-horizontal">
+                      {jogadores
+                        .filter(j =>
+                          j.name !== jogadores[jogadorAtual].name &&
+                          j.name !== jogadorEscolhido.name)
+                        .map((j, i) => (
+                          <button
+                            key={i}
+                            onClick={() => escolherInterceptador(j)}
+                            className="botao-personalizado"
+                          >
+                            {j.name}
+                          </button>
+                        ))}
+                    </div>
+                  </>
+                )}
+              </>
+            )}
+
+            {fase === 5 && (
+              <>
+                <h2>Carta foi interceptada por: <strong>{jogadorInterceptador.name}</strong></h2>
+                <h2>Símbolo: {cartaAtual.simbolo}</h2>
+                <p>{cartaAtual.enunciado}</p>
+                <p><strong>Shots: {cartaAtual.shots}</strong></p>
+                <button onClick={proximaRodada} className="botao-personalizado">Próxima Rodada</button>
+              </>
+            )}
           </>
         )}
 
-        {fase === 5 && (
-          <>
-            <h2>Carta foi interceptada por: <strong>{jogadorInterceptador.name}</strong></h2>
-            <h2>Símbolo: {cartaAtual.simbolo}</h2>
-            <p>{cartaAtual.enunciado}</p>
-            <p><strong>Shots: {cartaAtual.shots}</strong></p>
-            <button onClick={proximaRodada} className="botao-personalizado">Próxima Rodada</button>
-          </>
+        {vencedor && (
+          <div>
+            <h2>{vencedor} venceu o jogo!</h2>
+            <button onClick={() => setVencedor(null)} className="botao-personalizado">
+              Continuar jogando
+            </button>
+            <button onClick={() => window.location.reload()} className="botao-personalizado">
+              Reiniciar jogo
+            </button>
+          </div>
         )}
       </div>
     </div>
