@@ -34,7 +34,7 @@ export default function TelaJogo({ jogadoresIniciais }) {
     const contagem = {};
     jogador.cards.forEach((carta) => {
       contagem[carta.simbolo] = (contagem[carta.simbolo] || 0) + 1;
-      if (contagem[carta.simbolo] >= 2) { // MUDAR PARA 5 QUANDO ADICIONAR TODAS AS CARTAS
+      if (contagem[carta.simbolo] >= 5) {
         setVencedor(jogador.name);
       }
     });
