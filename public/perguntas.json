@@ -1,26 +1,1082 @@
 [
   {
     "id": 1,
-    "simbolo": "𓃢",
+    "simbolo": "1",
     "enunciado": "Qual foi a situação mais embaraçosa que já aconteceu com você durante um encontro?",
-    "shots": 1
+    "shots": "1"
   },
   {
     "id": 2,
-    "simbolo": "𓂀",
+    "simbolo": "1",
     "enunciado": "Já ficou com alguém e se arrependeu imediatamente? Quem foi?",
-    "shots": 2
+    "shots": "1"
   },
   {
     "id": 3,
-    "simbolo": "𓃢",
+    "simbolo": "3",
     "enunciado": "Qual é a coisa mais ousada que você já fez para chamar a atenção de alguém que estava interessado(a)?",
-    "shots": 3
+    "shots": "2"
   },
   {
     "id": 4,
-    "simbolo": "𓃢",
+    "simbolo": "2",
     "enunciado": "Qual é o seu fetiche mais secreto?",
-    "shots": 2
+    "shots": "1"
+  },
+  {
+    "id": 5,
+    "simbolo": "1",
+    "enunciado": "Já ficou com alguém apenas por interesse?",
+    "shots": "2"
+  },
+  {
+    "id": 6,
+    "simbolo": "2",
+    "enunciado": "Qual é a coisa mais estranha que você já fez quando estava apaixonado(a)?",
+    "shots": "1"
+  },
+  {
+    "id": 7,
+    "simbolo": "1",
+    "enunciado": "Já traiu em algum relacionamento?",
+    "shots": "2"
+  },
+  {
+    "id": 8,
+    "simbolo": "1",
+    "enunciado": "Qual é o lugar mais incomum onde você já fez sexo?",
+    "shots": "2"
+  },
+  {
+    "id": 9,
+    "simbolo": "1",
+    "enunciado": "Já ficou com alguém que era amigo(a) do seu ex?",
+    "shots": "2"
+  },
+  {
+    "id": 10,
+    "simbolo": "2",
+    "enunciado": "Já teve um sonho erótico com alguém do grupo?",
+    "shots": "1"
+  },
+  {
+    "id": 11,
+    "simbolo": "2",
+    "enunciado": "Qual é a coisa mais constrangedora que você já pediu para alguém fazer na cama?",
+    "shots": "3"
+  },
+  {
+    "id": 12,
+    "simbolo": "3",
+    "enunciado": "Qual é o seu maior arrependimento sexual?",
+    "shots": "1"
+  },
+  {
+    "id": 13,
+    "simbolo": "2",
+    "enunciado": "Qual é a coisa mais ousada que você já fez para conseguir um date?",
+    "shots": "2"
+  },
+  {
+    "id": 14,
+    "simbolo": "2",
+    "enunciado": "Já ficou com alguém e depois descobriu que era casado(a)?",
+    "shots": "3"
+  },
+  {
+    "id": 15,
+    "simbolo": "2",
+    "enunciado": "Já ficou com alguém do trabalho?",
+    "shots": "3"
+  },
+  {
+    "id": 16,
+    "simbolo": "3",
+    "enunciado": "Quem da roda você chamaria para um ménage?",
+    "shots": "2"
+  },
+  {
+    "id": 17,
+    "simbolo": "1",
+    "enunciado": "Quem da roda você beijaria?",
+    "shots": "3"
+  },
+  {
+    "id": 18,
+    "simbolo": "2",
+    "enunciado": "Qual foi a pior desculpa que você já deu para não transar com alguém?",
+    "shots": "3"
+  },
+  {
+    "id": 19,
+    "simbolo": "3",
+    "enunciado": "Quem da roda você NÃO beijaria de jeito nenhum?",
+    "shots": "2"
+  },
+  {
+    "id": 20,
+    "simbolo": "2",
+    "enunciado": "Já fingiu um orgasmo? Por quê?",
+    "shots": "2"
+  },
+  {
+    "id": 21,
+    "simbolo": "3",
+    "enunciado": "Qual é a coisa mais estranha que você já pesquisou no modo anônimo do seu navegador?",
+    "shots": "1"
+  },
+  {
+    "id": 22,
+    "simbolo": "3",
+    "enunciado": "Já ficou com alguém e depois descobriu que era amigo(a) do seu irmão/irmã?",
+    "shots": "3"
+  },
+  {
+    "id": 23,
+    "simbolo": "2",
+    "enunciado": "Já ficou com algum amigo(a) de seu irmão/irmã?",
+    "shots": "1"
+  },
+  {
+    "id": 24,
+    "simbolo": "3",
+    "enunciado": "Já teve um crush em um professor(a)?",
+    "shots": "2"
+  },
+  {
+    "id": 25,
+    "simbolo": "3",
+    "enunciado": "Qual é a coisa mais constrangedora que você já fez para evitar um beijo?",
+    "shots": "2"
+  },
+  {
+    "id": 26,
+    "simbolo": "2",
+    "enunciado": "Já ficou com alguém que namorava um(a) amigo(a) seu?",
+    "shots": "3"
+  },
+  {
+    "id": 27,
+    "simbolo": "2",
+    "enunciado": "Qual é a coisa mais estranha que você já usou como brinquedo sexual?",
+    "shots": "3"
+  },
+  {
+    "id": 28,
+    "simbolo": "3",
+    "enunciado": "Já teve um encontro que terminou em fuga? O que aconteceu?",
+    "shots": "3"
+  },
+  {
+    "id": 29,
+    "simbolo": "3",
+    "enunciado": "Qual é a coisa mais embaraçosa que você já disse durante o sexo?",
+    "shots": "1"
+  },
+  {
+    "id": 30,
+    "simbolo": "1",
+    "enunciado": "Qual a pior cantada que você já recebeu?",
+    "shots": "1"
+  },
+  {
+    "id": 31,
+    "simbolo": "1",
+    "enunciado": "Qual a pior cantada que você já fez?",
+    "shots": "2"
+  },
+  {
+    "id": 32,
+    "simbolo": "1",
+    "enunciado": "Já transou com duas pessoas no mesmo dia? Quem eram?",
+    "shots": "3"
+  },
+  {
+    "id": 33,
+    "simbolo": "2",
+    "enunciado": "Qual a maior quantidade de pessoas que você beijou em um dia?",
+    "shots": "3"
+  },
+  {
+    "id": 34,
+    "simbolo": "3",
+    "enunciado": "Qual foi a maior mentira que você contou para conseguir ficar com alguém?",
+    "shots": "1"
+  },
+  {
+    "id": 35,
+    "simbolo": "2",
+    "enunciado": "Já mandou nudes?",
+    "shots": "1"
+  },
+  {
+    "id": 36,
+    "simbolo": "3",
+    "enunciado": "Para quem da roda você enviaria um nude?",
+    "shots": "1"
+  },
+  {
+    "id": 37,
+    "simbolo": "3",
+    "enunciado": "Já mandou nudes e se arrependeu? Para quem?",
+    "shots": "1"
+  },
+  {
+    "id": 38,
+    "simbolo": "1",
+    "enunciado": "Qual foi a desculpa mais absurda que já deu para escapar de um date ruim?",
+    "shots": "2"
+  },
+  {
+    "id": 39,
+    "simbolo": "3",
+    "enunciado": "Quem foi a última pessoa que você beijou?",
+    "shots": "1"
+  },
+  {
+    "id": 40,
+    "simbolo": "2",
+    "enunciado": "Quem foi a última pessoa que você transou?",
+    "shots": "3"
+  },
+  {
+    "id": 41,
+    "simbolo": "1",
+    "enunciado": "Já transou em público?",
+    "shots": "3"
+  },
+  {
+    "id": 42,
+    "simbolo": "3",
+    "enunciado": "Quem da roda você chamaria para cama?",
+    "shots": "1"
+  },
+  {
+    "id": 43,
+    "simbolo": "2",
+    "enunciado": "Prefere dominar ou ser dominado(a)?",
+    "shots": "2"
+  },
+  {
+    "id": 44,
+    "simbolo": "1",
+    "enunciado": "Qual é o seu tipo de pornô favorito?",
+    "shots": "2"
+  },
+  {
+    "id": 45,
+    "simbolo": "3",
+    "enunciado": "Qual foi a posição mais estranha que já tentou?",
+    "shots": "3"
+  },
+  {
+    "id": 46,
+    "simbolo": "3",
+    "enunciado": "Já teve que interromper uma transa, pois estava passando mal?",
+    "shots": "2"
+  },
+  {
+    "id": 47,
+    "simbolo": "3",
+    "enunciado": "O que nunca faria na cama, nem por um milhão de reais?",
+    "shots": "1"
+  },
+  {
+    "id": 48,
+    "simbolo": "2",
+    "enunciado": "Já mandou mensagem para um ex depois de beber? O que escreveu?",
+    "shots": "2"
+  },
+  {
+    "id": 49,
+    "simbolo": "3",
+    "enunciado": "Tamanho do documento importa?",
+    "shots": "1"
+  },
+  {
+    "id": 50,
+    "simbolo": "3",
+    "enunciado": "Quem você acha que tem o maior pinto da roda?",
+    "shots": "3"
+  },
+  {
+    "id": 51,
+    "simbolo": "3",
+    "enunciado": "Já fez sexo a três ou mais? Se sim, com quem?",
+    "shots": "1"
+  },
+  {
+    "id": 52,
+    "simbolo": "3",
+    "enunciado": "Já transou com alguém do mesmo sexo? Como foi?",
+    "shots": "2"
+  },
+  {
+    "id": 53,
+    "simbolo": "2",
+    "enunciado": "Qual foi a pessoa mais aleatória que você já beijou?",
+    "shots": "3"
+  },
+  {
+    "id": 54,
+    "simbolo": "1",
+    "enunciado": "Já enviou ou recebeu um nude de alguém nesta roda?",
+    "shots": "2"
+  },
+  {
+    "id": 55,
+    "simbolo": "3",
+    "enunciado": "Qual foi a maior loucura que já fez por tesão?",
+    "shots": "1"
+  },
+  {
+    "id": 56,
+    "simbolo": "3",
+    "enunciado": "Já broxou ou fez alguém broxar? O que aconteceu?",
+    "shots": "2"
+  },
+  {
+    "id": 57,
+    "simbolo": "2",
+    "enunciado": "Já pegou dois amigos próximos sem eles saberem?",
+    "shots": "1"
+  },
+  {
+    "id": 58,
+    "simbolo": "1",
+    "enunciado": "Você já foi para a cama com alguém e se arrependeu imediatamente depois? Quem?",
+    "shots": "2"
+  },
+  {
+    "id": 59,
+    "simbolo": "2",
+    "enunciado": "Já foi pego no flagra durante o sexo?",
+    "shots": "2"
+  },
+  {
+    "id": 60,
+    "simbolo": "1",
+    "enunciado": "Já transou sem lembrar depois por estar muito bêbado(a)?",
+    "shots": "2"
+  },
+  {
+    "id": 61,
+    "simbolo": "1",
+    "enunciado": "Você prefere sexo selvagem ou romântico?",
+    "shots": "2"
+  },
+  {
+    "id": 62,
+    "simbolo": "1",
+    "enunciado": "Qual é a coisa mais suja que já sussurraram no seu ouvido durante o sexo?",
+    "shots": "2"
+  },
+  {
+    "id": 63,
+    "simbolo": "1",
+    "enunciado": "Já te amarraram durante o sexo?",
+    "shots": "3"
+  },
+  {
+    "id": 64,
+    "simbolo": "1",
+    "enunciado": "Já amarrou alguém durante o sexo?",
+    "shots": "2"
+  },
+  {
+    "id": 65,
+    "simbolo": "2",
+    "enunciado": "Para quem você enviou o último nude?",
+    "shots": "1"
+  },
+  {
+    "id": 66,
+    "simbolo": "1",
+    "enunciado": "Você já se apaixonou por alguém comprometido?",
+    "shots": "1"
+  },
+  {
+    "id": 67,
+    "simbolo": "1",
+    "enunciado": "Se pudesse trocar de vida com alguém desta roda por uma semana, quem seria?",
+    "shots": "2"
+  },
+  {
+    "id": 68,
+    "simbolo": "1",
+    "enunciado": "Qual foi o momento mais ridículo que já passou na frente de uma paquera?",
+    "shots": "1"
+  },
+  {
+    "id": 69,
+    "simbolo": "1",
+    "enunciado": "Se você pudesse excluir permanentemente uma memória da sua vida, qual seria?",
+    "shots": "1"
+  },
+  {
+    "id": 70,
+    "simbolo": "1",
+    "enunciado": "Quais drogas ilícitas você já usou?",
+    "shots": "3"
+  },
+  {
+    "id": 71,
+    "simbolo": "3",
+    "enunciado": "Já ficou com alguém com fetiche em pés?",
+    "shots": "3"
+  },
+  {
+    "id": 72,
+    "simbolo": "1",
+    "enunciado": "Já ficou com alguém com algum fetiche estranho?",
+    "shots": "2"
+  },
+  {
+    "id": 73,
+    "simbolo": "1",
+    "enunciado": "Quem da roda você teria uma amizade colorida?",
+    "shots": "3"
+  },
+  {
+    "id": 74,
+    "simbolo": "3",
+    "enunciado": "Se tivesse que dividir uma cama de solteiro com alguém da roda hoje à noite, quem escolheria?",
+    "shots": "1"
+  },
+  {
+    "id": 75,
+    "simbolo": "1",
+    "enunciado": "Já quis ficar com algum parente de um amigo(a)?",
+    "shots": "1"
+  },
+  {
+    "id": 76,
+    "simbolo": "3",
+    "enunciado": "Se tivesse que beijar o ex de alguém desta roda agora, quem seria?",
+    "shots": "1"
+  },
+  {
+    "id": 77,
+    "simbolo": "3",
+    "enunciado": "Se tivesse que sair de casa e morar com alguém da roda hoje, quem escolheria?",
+    "shots": "3"
+  },
+  {
+    "id": 78,
+    "simbolo": "2",
+    "enunciado": "Se tivesse que fazer um pacto de segredo com alguém aqui, quem escolheria?",
+    "shots": "1"
+  },
+  {
+    "id": 79,
+    "simbolo": "1",
+    "enunciado": "Se pudesse saber um segredo de qualquer pessoa da roda, de quem seria?",
+    "shots": "3"
+  },
+  {
+    "id": 80,
+    "simbolo": "1",
+    "enunciado": "Se tivesse que escolher alguém da roda para te defender em uma discussão séria, quem seria?",
+    "shots": "2"
+  },
+  {
+    "id": 81,
+    "simbolo": "2",
+    "enunciado": "Qual foi a coisa mais sem sentido que já comprou por impulso?",
+    "shots": "2"
+  },
+  {
+    "id": 82,
+    "simbolo": "1",
+    "enunciado": "Se tivesse que passar 24h acorrentado a alguém desta roda, quem escolheria?",
+    "shots": "1"
+  },
+  {
+    "id": 83,
+    "simbolo": "1",
+    "enunciado": "Já se gravou transando?",
+    "shots": "1"
+  },
+  {
+    "id": 84,
+    "simbolo": "1",
+    "enunciado": "O que te irrita mais em alguém da roda, mas você nunca falou?",
+    "shots": "3"
+  },
+  {
+    "id": 85,
+    "simbolo": "1",
+    "enunciado": "Se tivesse que revelar a última coisa que pesquisou no YouTube, o que seria?[a]",
+    "shots": "1"
+  },
+  {
+    "id": 86,
+    "simbolo": "1",
+    "enunciado": "Se fosse obrigado(a) a viver com alguém da roda num apocalipse zumbi, quem seria sua escolha e por quê?",
+    "shots": "2"
+  },
+  {
+    "id": 87,
+    "simbolo": "1",
+    "enunciado": "Qual fetiche você ainda não realizou, mas morre de vontade de testar?",
+    "shots": "2"
+  },
+  {
+    "id": 88,
+    "simbolo": "1",
+    "enunciado": "Se tivesse que dar um beijinho no pai ou na mãe de alguém da roda, quem seria o escolhido?",
+    "shots": "2"
+  },
+  {
+    "id": 89,
+    "simbolo": "1",
+    "enunciado": "Você tem algum nude salvo na galeria do celular?",
+    "shots": "1"
+  },
+  {
+    "id": 90,
+    "simbolo": "3",
+    "enunciado": "Já salvou algum nude de outra pessoa na sua galeria do celular?",
+    "shots": "1"
+  },
+  {
+    "id": 91,
+    "simbolo": "3",
+    "enunciado": "Qual famoso(a) você beijaria sem pensar duas vezes?",
+    "shots": "1"
+  },
+  {
+    "id": 92,
+    "simbolo": "3",
+    "enunciado": "Antes de começar o jogo, qual foi o seu último beijo?",
+    "shots": "3"
+  },
+  {
+    "id": 93,
+    "simbolo": "1",
+    "enunciado": "Se você pudesse escolher alguém para ser seu último sexo antes de entrar em celibato, quem seria?",
+    "shots": "1"
+  },
+  {
+    "id": 94,
+    "simbolo": "3",
+    "enunciado": "Diga quem tem a bunda mais linda da roda.",
+    "shots": "1"
+  },
+  {
+    "id": 95,
+    "simbolo": "2",
+    "enunciado": "Qual experiência sexual você nunca teve e definitivamente não teria?",
+    "shots": "2"
+  },
+  {
+    "id": 96,
+    "simbolo": "1",
+    "enunciado": "Você tem um tipo de pessoa que prefere? Se sim, qual é?",
+    "shots": "1"
+  },
+  {
+    "id": 97,
+    "simbolo": "3",
+    "enunciado": "O que realmente te excita?",
+    "shots": "3"
+  },
+  {
+    "id": 98,
+    "simbolo": "1",
+    "enunciado": "Beijaria alguém que você não gosta? Se sim, quem?",
+    "shots": "2"
+  },
+  {
+    "id": 99,
+    "simbolo": "3",
+    "enunciado": "Descreva o melhor sexo que você já teve.",
+    "shots": "1"
+  },
+  {
+    "id": 100,
+    "simbolo": "2",
+    "enunciado": "Diga qual a parte do corpo mais bonita da pessoa que te entregou a carta",
+    "shots": "2"
+  },
+  {
+    "id": 101,
+    "simbolo": "1",
+    "enunciado": "Diga a característica mais atraente da pessoa que está a sua esquerda",
+    "shots": "1"
+  },
+  {
+    "id": 102,
+    "simbolo": "2",
+    "enunciado": "Você já disse o nome errado na hora do sexo?",
+    "shots": "3"
+  },
+  {
+    "id": 103,
+    "simbolo": "1",
+    "enunciado": "Você é mais ativo ou passivo? ou os dois?",
+    "shots": "1"
+  },
+  {
+    "id": 104,
+    "simbolo": "3",
+    "enunciado": "Faça um elogio para cada pessoa da roda",
+    "shots": "2"
+  },
+  {
+    "id": 105,
+    "simbolo": "1",
+    "enunciado": "Já transou em outra língua? Se sim, imite algo que você disse para a roda",
+    "shots": "1"
+  },
+  {
+    "id": 106,
+    "simbolo": "3",
+    "enunciado": "Quem da roda você já viu pelado?",
+    "shots": "2"
+  },
+  {
+    "id": 107,
+    "simbolo": "3",
+    "enunciado": "Descreva o ano novo de 2023 como se fosse uma aula de filosofia",
+    "shots": "1"
+  },
+  {
+    "id": 108,
+    "simbolo": "3",
+    "enunciado": "Qual personagem animado você daria um beijo?",
+    "shots": "1"
+  },
+  {
+    "id": 109,
+    "simbolo": "1",
+    "enunciado": "Diga qual é o seu contatinho mais ativo atualmente",
+    "shots": "2"
+  },
+  {
+    "id": 110,
+    "simbolo": "3",
+    "enunciado": "O que você quer muito que aconteça antes deste jogo terminar?",
+    "shots": "2"
+  },
+  {
+    "id": 111,
+    "simbolo": "2",
+    "enunciado": "Escolha alguém para dar um selinho",
+    "shots": "3"
+  },
+  {
+    "id": 112,
+    "simbolo": "3",
+    "enunciado": "Escolha alguém para dar um beijo de língua",
+    "shots": "1"
+  },
+  {
+    "id": 113,
+    "simbolo": "1",
+    "enunciado": "Segure a mão da pessoa que você acha que beija melhor",
+    "shots": "1"
+  },
+  {
+    "id": 114,
+    "simbolo": "3",
+    "enunciado": "Conte a história do seu pior beijo",
+    "shots": "3"
+  },
+  {
+    "id": 115,
+    "simbolo": "2",
+    "enunciado": "Dance de forma sensual para a roda",
+    "shots": "3"
+  },
+  {
+    "id": 116,
+    "simbolo": "3",
+    "enunciado": "Descreva, sem filtros, seu melhor sexo até hoje.",
+    "shots": "1"
+  },
+  {
+    "id": 117,
+    "simbolo": "3",
+    "enunciado": "Escolha alguém para te dar um beijo sensual no pescoço",
+    "shots": "1"
+  },
+  {
+    "id": 118,
+    "simbolo": "2",
+    "enunciado": "Escolha alguém para te dar um tapa na bunda",
+    "shots": "1"
+  },
+  {
+    "id": 119,
+    "simbolo": "3",
+    "enunciado": "Simule um orgasmo bem alto",
+    "shots": "1"
+  },
+  {
+    "id": 120,
+    "simbolo": "3",
+    "enunciado": "Passe um minuto beijando o pescoço da pessoa à sua esquerda",
+    "shots": "1"
+  },
+  {
+    "id": 121,
+    "simbolo": "1",
+    "enunciado": "Tire uma peça de roupa",
+    "shots": "1"
+  },
+  {
+    "id": 122,
+    "simbolo": "3",
+    "enunciado": "Faça um strip sensual para alguém da roda",
+    "shots": "2"
+  },
+  {
+    "id": 123,
+    "simbolo": "2",
+    "enunciado": "Poste um story agora com uma legenda escolhida pela roda",
+    "shots": "1"
+  },
+  {
+    "id": 124,
+    "simbolo": "3",
+    "enunciado": "Leia a última mensagem que enviou no WhatsApp em voz alta",
+    "shots": "2"
+  },
+  {
+    "id": 125,
+    "simbolo": "1",
+    "enunciado": "Passe seu celular para a pessoa à sua direita por 1 minuto sem bloquear a tela.",
+    "shots": "2"
+  },
+  {
+    "id": 126,
+    "simbolo": "2",
+    "enunciado": "Escolha alguém para trocar uma peça de roupa com você",
+    "shots": "1"
+  },
+  {
+    "id": 127,
+    "simbolo": "3",
+    "enunciado": "Ligue para um contato aleatório e fale \"eu sei de tudo\", depois desligue.",
+    "shots": "3"
+  },
+  {
+    "id": 128,
+    "simbolo": "3",
+    "enunciado": "Dance sensualmente com um objeto escolhido pela roda",
+    "shots": "2"
+  },
+  {
+    "id": 129,
+    "simbolo": "1",
+    "enunciado": "Finja um pedido de casamento para a pessoa à sua esquerda e faça um discurso convincente",
+    "shots": "3"
+  },
+  {
+    "id": 130,
+    "simbolo": "3",
+    "enunciado": "Pegue o celular e deixe a roda escolher uma palavra. Agora, procure essa palavra no seu WhatsApp e leia a última mensagem que apareceu.",
+    "shots": "3"
+  },
+  {
+    "id": 131,
+    "simbolo": "3",
+    "enunciado": "Escolha alguém da roda para trocar totalmente de roupa",
+    "shots": "2"
+  },
+  {
+    "id": 132,
+    "simbolo": "3",
+    "enunciado": "Escolha alguém da roda para troca uma peça de roupa",
+    "shots": "3"
+  },
+  {
+    "id": 133,
+    "simbolo": "3",
+    "enunciado": "Olhe para a pessoa à sua esquerda e elogie ela de uma maneira tão exagerada que pareça ironia.",
+    "shots": "1"
+  },
+  {
+    "id": 134,
+    "simbolo": "2",
+    "enunciado": "Comece a cantarolar uma música substituindo a letra por gemidos enquanto os outros tentam adivinhar qual é",
+    "shots": "1"
+  },
+  {
+    "id": 135,
+    "simbolo": "2",
+    "enunciado": "Diga o nome de um ex (ficante, contatinho, crush…) com quem você faria um replay.",
+    "shots": "1"
+  },
+  {
+    "id": 136,
+    "simbolo": "2",
+    "enunciado": "Conte a história de como perdeu a virgindade.",
+    "shots": "1"
+  },
+  {
+    "id": 137,
+    "simbolo": "2",
+    "enunciado": "Dê três razões convincentes para que todo mundo aqui queira te beijar.",
+    "shots": "3"
+  },
+  {
+    "id": 138,
+    "simbolo": "3",
+    "enunciado": "Fique uma rodada inteira sentado(a) no colo de alguém da roda.",
+    "shots": "2"
+  },
+  {
+    "id": 139,
+    "simbolo": "1",
+    "enunciado": "Mostre todo o seu talento descendo na boquinha da garrafa",
+    "shots": "1"
+  },
+  {
+    "id": 140,
+    "simbolo": "2",
+    "enunciado": "Dê uma lambidinha na parte do corpo que a roda escolher da pessoa à sua direita.",
+    "shots": "1"
+  },
+  {
+    "id": 141,
+    "simbolo": "3",
+    "enunciado": "Recrie a história de como perdeu a virgindade como se fosse uma fanfic do Wattpad[b]",
+    "shots": "1"
+  },
+  {
+    "id": 142,
+    "simbolo": "3",
+    "enunciado": "Beba dois shots e dê duas cambalhotas",
+    "shots": "2"
+  },
+  {
+    "id": 143,
+    "simbolo": "1",
+    "enunciado": "Durante uma rodada, só pode se comunicar miando.",
+    "shots": "2"
+  },
+  {
+    "id": 144,
+    "simbolo": "1",
+    "enunciado": "Proibido falar até a rodada acabar!",
+    "shots": "3"
+  },
+  {
+    "id": 145,
+    "simbolo": "2",
+    "enunciado": "Sussurre um segredo no ouvido de quem te entregou a carta.",
+    "shots": "2"
+  },
+  {
+    "id": 146,
+    "simbolo": "3",
+    "enunciado": "Durante uma rodada, você só pode se expressar como se fosse um cachorro",
+    "shots": "3"
+  },
+  {
+    "id": 147,
+    "simbolo": "2",
+    "enunciado": "Escolha alguém da roda e tente convencê-lo(a) de que vocês já se conheciam em outra vida.",
+    "shots": "3"
+  },
+  {
+    "id": 148,
+    "simbolo": "3",
+    "enunciado": "Você agora é um narrador de reality show. Comente tudo o que está acontecendo na roda com muito drama.",
+    "shots": "2"
+  },
+  {
+    "id": 149,
+    "simbolo": "3",
+    "enunciado": "Durante uma rodada, fale como se estivesse dublando uma série do Discovery Channel",
+    "shots": "2"
+  },
+  {
+    "id": 150,
+    "simbolo": "1",
+    "enunciado": "A partir de agora, todas as suas frases precisam rimar até o fim da rodada.",
+    "shots": "1"
+  },
+  {
+    "id": 151,
+    "simbolo": "3",
+    "enunciado": "Você só pode se comunicar usando frases de músicas famosas até a rodada acabar.",
+    "shots": "2"
+  },
+  {
+    "id": 152,
+    "simbolo": "1",
+    "enunciado": "Finja que acabou de ser eliminado(a) de um reality show e faça um discurso emocionante de despedida.",
+    "shots": "2"
+  },
+  {
+    "id": 153,
+    "simbolo": "1",
+    "enunciado": "Diga alguém que você tem vergonha de admitir que beijaria",
+    "shots": "1"
+  },
+  {
+    "id": 154,
+    "simbolo": "1",
+    "enunciado": "Feche os olhos e tente adivinhar quem te beijou.",
+    "shots": "1"
+  },
+  {
+    "id": 155,
+    "simbolo": "3",
+    "enunciado": "Feche os olhos e tente adivinhar quem te deu um selinho.",
+    "shots": "3"
+  },
+  {
+    "id": 156,
+    "simbolo": "1",
+    "enunciado": "Escreva algo com a bunda no ar e faça a roda adivinhar o que é.",
+    "shots": "1"
+  },
+  {
+    "id": 157,
+    "simbolo": "1",
+    "enunciado": "Tente imitar um beijo do Homem-Aranha",
+    "shots": "3"
+  },
+  {
+    "id": 158,
+    "simbolo": "3",
+    "enunciado": "Diga duas verdades e uma mentira, e deixe a roda tentar adivinhar.",
+    "shots": "1"
+  },
+  {
+    "id": 159,
+    "simbolo": "3",
+    "enunciado": "Mostre rapidamente um nude seu para alguém da roda[c]",
+    "shots": "2"
+  },
+  {
+    "id": 160,
+    "simbolo": "2",
+    "enunciado": "Durante uma rodada, fale apenas na língua do 'P'.",
+    "shots": "3"
+  },
+  {
+    "id": 161,
+    "simbolo": "3",
+    "enunciado": "Fale igual ao Cebolinha durante toda a rodada.",
+    "shots": "1"
+  },
+  {
+    "id": 162,
+    "simbolo": "3",
+    "enunciado": "Tire uma peça de roupa",
+    "shots": "2"
+  },
+  {
+    "id": 163,
+    "simbolo": "1",
+    "enunciado": "Escolha uma pessoa da roda e tire uma peça de roupa junto com ela[d]",
+    "shots": "3"
+  },
+  {
+    "id": 164,
+    "simbolo": "1",
+    "enunciado": "Imite o som de um motor de barco usando os peitos de alguém da roda.",
+    "shots": "3"
+  },
+  {
+    "id": 165,
+    "simbolo": "3",
+    "enunciado": "Explique um problema geopolítico como se fosse a fofoca",
+    "shots": "3"
+  },
+  {
+    "id": 166,
+    "simbolo": "1",
+    "enunciado": "Encare uma pessoa o mais perto possível por 1 minuto",
+    "shots": "3"
+  },
+  {
+    "id": 167,
+    "simbolo": "1",
+    "enunciado": "Imite tudo o que a pessoa à sua esquerda disser ou fizer[e]",
+    "shots": "1"
+  },
+  {
+    "id": 168,
+    "simbolo": "1",
+    "enunciado": "Quique no colo de todos da roda",
+    "shots": "1"
+  },
+  {
+    "id": 169,
+    "simbolo": "3",
+    "enunciado": "Cheire o pé de alguém da roda.",
+    "shots": "3"
+  },
+  {
+    "id": 170,
+    "simbolo": "2",
+    "enunciado": "Dê uma lambida no sovaco de alguém.",
+    "shots": "2"
+  },
+  {
+    "id": 171,
+    "simbolo": "3",
+    "enunciado": "Faça um bodyshot em alguém.",
+    "shots": "3"
+  },
+  {
+    "id": 172,
+    "simbolo": "3",
+    "enunciado": "Alguém vai fazer cosquinha em você, e você não pode se defender.",
+    "shots": "1"
+  },
+  {
+    "id": 173,
+    "simbolo": "1",
+    "enunciado": "Durante uma rodada, segure alguém no colo ou nos seus ombros.",
+    "shots": "2"
+  },
+  {
+    "id": 174,
+    "simbolo": "3",
+    "enunciado": "Faça uma atuação em que você está tendo um parto e alguém da roda é o bebê nascendo.",
+    "shots": "3"
+  },
+  {
+    "id": 175,
+    "simbolo": "3",
+    "enunciado": "Passe a próxima rodada fazendo uma massagem em alguém.",
+    "shots": "2"
+  },
+  {
+    "id": 176,
+    "simbolo": "2",
+    "enunciado": "Passe uma rodada inteira sem dar risada; se rir, beba um shot.",
+    "shots": "2"
+  },
+  {
+    "id": 177,
+    "simbolo": "1",
+    "enunciado": "Tire uma peça de roupa de alguém com a boca.",
+    "shots": "2"
+  },
+  {
+    "id": 178,
+    "simbolo": "3",
+    "enunciado": "Dê um beijo de olhos abertos em alguém da roda.",
+    "shots": "1"
+  },
+  {
+    "id": 179,
+    "simbolo": "2",
+    "enunciado": "Faça um anúncio no Instagram dizendo que está vendendo um hamster.",
+    "shots": "1"
+  },
+  {
+    "id": 180,
+    "simbolo": "2",
+    "enunciado": "Deixe alguém apalpar seu peito",
+    "shots": "3"
   }
 ]
